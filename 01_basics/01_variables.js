@@ -1,4 +1,4 @@
-console.log("Tejashree Berde")
+
 const accountId = 1234;
 let accountEmail = "test@gmail.com";
 var accountPassword = "abcd";
