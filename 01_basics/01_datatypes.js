@@ -122,6 +122,24 @@ let studentInfo = {
 console.log(studentInfo);
 
 
+/*
+JavaScript Arrays
+An array is a special variable, which can hold more than one value:
+
+
+*/
+
+const studenNames = ["Raj", "Riya", "Siya"];
+console.log(studenNames);
+
+
+
+console.log(typeof("Apple"));
+console.log(typeof(studenNames));
+console.log(typeof(studentInfo));
+
+
+
 
 
 
