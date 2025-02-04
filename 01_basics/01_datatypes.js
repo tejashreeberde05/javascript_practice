@@ -62,6 +62,63 @@ A Boolean data can only have one of two values: true or false.
 
  let statusChecked = "False";
  console.log(statusChecked);
+
+ /*
+
+ JavaScript undefined
+
+ If a variable is declared but the value is not assigned, then the value of that variable will be undefined.
+
+ */
+
+ let fname;
+ console.log(fname);
+
+ let name= undefined
+ console.log(name);
+
+ /*
+ JavaScript null
+ In JavaScript, null represents "no value" or "nothing." For example,
+
+*/
+let number ="null"
+console.log(number);
+
+ /*
+
+ JavaScript Symbol
+A Symbol is a unique and primitive value. This data type was introduced in ES6.
+
+When you create a Symbol, JavaScript guarantees that it is distinct from all other symbols, even if they have the same descriptions. 
+
+*/
+//Rwo symbols with same description
+
+let value1 = Symbol("Javascript")
+let value2 = Symbol("Javascript")
+
+console.log(value1 == value2);
+
+
+/*
+JavaScript Object
+An Object holds data in the form of key-value pairs. For example,
+
+*/
+let studentInfo = {
+            fName : "Raj",
+            lName :"Nair",
+            age   : 30
+
+};
+console.log(studentInfo);
+
+
+
+
+
+ 
  
  
 
