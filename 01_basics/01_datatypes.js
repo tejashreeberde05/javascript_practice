@@ -137,6 +137,10 @@ console.log(studenNames);
 console.log(typeof("Apple"));
 console.log(typeof(studenNames));
 console.log(typeof(studentInfo));
+console.log(typeof undefined); // result is unefined
+console.log(typeof null) // resule is  object
+
+
 
 
 
