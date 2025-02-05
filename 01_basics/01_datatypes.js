@@ -1,14 +1,14 @@
 "use strict";// treat all JS code as  newer version 
 // alert("hello") // we are using node.js , not browser
 
-//String	- Textual Data
-//Number    - An Integer or floating poimt number
-//BigInt	- An integer with arbitrary precision.
+//String	 - Textual Data
+//Number     - An Integer or floating poimt number
+//BigInt	 - An integer with arbitrary precision.
 //Boolean	 - Any of two values: true or false.	
 //undefined  - A data type whose variable is not initialized or value is not assigned.	
-//null      -	Denotes a null value.	
-//Symbol	- A data type whose instances are unique and immutable.
-//Object	- Key-value pairs of collection of data.
+//null       - null represents "no value" or "nothing."	
+//Symbol	 - A data type whose instances are unique and immutable.
+//Object	 - Key-value pairs of collection of data.
 
 
 // string enclosed in single quotes
