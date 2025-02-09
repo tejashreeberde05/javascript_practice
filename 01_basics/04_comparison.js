@@ -12,6 +12,8 @@ Operator	Description
 ?	        ternary operator
 */
 
+
+
 // equal to operator
 console.log("Equal to: 2 == 2 is", 2 == 2); //output : true
 
