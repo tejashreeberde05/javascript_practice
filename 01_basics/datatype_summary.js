@@ -80,3 +80,47 @@ console.log(typeof "John Doe")     // Returns "string"
 console.log(typeof 0); //Returns "number"
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+  
+/* Primitive and Reference value in JavaScript*/
+
+
+/*
+The size of Primitive values are fixed, therefore JavaScript stores the primitive value in the call stack.When we access a primitive value, we manipulate the actual value stored in that variable. Thus, variables that are primitive are accessed by Value. When we assign a variable that stores a primitive value to another, the value stored in the variable is created and copied into the new variable.
+*/
+
+
+//Example: Let us take an example to understand primitive value:
+
+let age1 = 30;
+let age2 = age1;
+//console.log(age2);
+console.log("Age 1 : ", age1); // output : 30
+console.log("Age 2: ", age2); // output : 30
+age1=31;
+console.log("New Age 1 :",age1); // output : 31;
+console.log("New Age 2 :",age2); // output : 30
+
+
+/*
+Reference Value: JavaScript provides three types of Reference values that include Array, Object, and Function. The size of a reference value is dynamic therefore It is stored on Heap.
+
+When we access a reference value, we manipulate it through reference, not through its actual value that is stored. Thus, variables that are reference values are accessed by reference. When we assign a reference value from one variable to another, the value stored in the variable is also copied into the location of the new variable but the difference is that the values stored in both variables now are the address of the actual object stored on the heap. As a result, both variables are referencing the same object, So we can manipulate the original object from both variables.
+*/
+
+//Example: Let us take an example to understand reference value:
+
+let info = { 
+    Name :"Abc", 
+    Age :10 
+} 
+console.log("Name : ", info.Name , "Age :",info.Age);
+
+
+let info2 = info;
+
+//console.log(info2);
+info2.Name = "Raj";
+info2.Age= 35;
+
+console.log("Name : ", info.Name , "Name :",info.Age);
+
