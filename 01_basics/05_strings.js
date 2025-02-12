@@ -160,7 +160,6 @@ console.log(textafterSubstring);
 
 
 
-
 /* JavaScript String slice() : The slice() method extracts and returns a section of a string.
 Syntax : str.slice(beginIndex, endIndex)
 */
@@ -321,6 +320,35 @@ let newText = text1.split(pattern); // Output : [ 'Java is awesome', ' Java is f
 console.log(newText);
 
 
+/* JavaScript String includes() : this method returns true if a string contains a specified string Otherwise it returns false.
+The includes() method is case sensitive.
+  
+   Syntax: string.includes(searchvalue, start)
+   The position to start from.Default value is 0.
+
+*/
+
+
+
+let txtbeforeincludes = "Hello world, welcome to the universe.";
+//let txtafterincludes = txtbeforeincludes.includes("universe"); // Output : true
+//let txtafterincludes = txtbeforeincludes.includes("Javascript"); // Output : false
+//let txtafterincludes = txtbeforeincludes.includes("world",12); // Output : false . 
+//let txtafterincludes = txtbeforeincludes.includes("world",6); // Output : true
+let txtafterincludes = txtbeforeincludes.includes("welcome",14); // Output : false
+console.log(txtafterincludes);
+
+
+
+/* JavaScript String substr() Method : This method in JavaScript extracts a portion of a string, starting from a specified index position and extending for a given number of characters.
+
+  Syntax: str.substr(start , length)
+
+*/
+
+let strbeforeSubstr = 'It is a great day.';
+let strafterSubstr = strbeforeSubstr.substr(3,7); // is a gr
+console.log(strafterSubstr);
 
 
 
