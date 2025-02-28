@@ -341,6 +341,17 @@ let nameafterindexof= name1.indexOf('cse'); // Output : 1
 console.log(nameafterindexof);
 console.log(name1.indexOf('abc')); // Output : -1
 
+/* JavaScript Array.from() :This method returns an array from any object with a length property.
+
+   Syntax : Array.from(object, mapFunction, thisValue)
+
+*/
+
+//Create an array from a string:
+
+
+console.log(Array.from("ABCDEFG")); // Output : ['A', 'B', 'C','D', 'E', 'F','G' ]
+
 
 
 
